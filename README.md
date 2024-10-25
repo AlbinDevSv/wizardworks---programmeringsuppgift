@@ -35,3 +35,46 @@ När sidan laddas om, hämtar webbsidan den senaste layouten från API:et och å
 
 ## Wizardworks: Programmeringsuppgift
 https://github.com/Wizardworks-AB/programmeringsuppgift?tab=readme-ov-file#wizardworks-programmeringsuppgift
+
+## Getting Started
+
+### Prerequisites
+För att kunna köra den här applikationen behöver du följande verktyg installerade:
+
+1. **.NET SDK 8.0**  
+   Du kan ladda ner och installera .NET SDK 8.0 från [Microsofts officiella webbplats](https://dotnet.microsoft.com/download/dotnet/8.0).
+
+2. **Node.js (för client-mappen om du har ett frontend)** (om tillämpligt)  
+   Du kan ladda ner och installera Node.js från [Node.js officiella webbplats](https://nodejs.org/).
+
+### Installation
+Följ dessa steg för att klona och installera projektet lokalt:
+
+1. **Klona repositoriet**
+   ```bash
+   git clone https://github.com/[ditt-användarnamn]/[namn-på-ditt-repo].git
+   cd [namn-på-ditt-repo]
+2. **Installera beroenden för .NET-projektet**
+    Om du använder .NET Core:
+    Kopiera kod
+    ```bash
+    dotnet restore
+    ```
+3. **Installera frontend-bibliotek (i 'client'-mappen) Om du har en frontend-mapp som kräver Node.js och NPM:**
+    Kopiera kod
+     ```bash
+    cd client
+    npm install
+      ```
+4. **Kör applikationen**
+    För att köra backend-servern:
+    Kopiera kod
+     ```bash
+      dotnet run --project MyApi
+     ```
+    Om du har en frontend-mapp och behöver köra den separat:
+    Kopiera kod
+    ```bash
+      cd client
+      npm start
+    ```
