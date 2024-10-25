@@ -1,0 +1,39 @@
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build directories and output files
+bin/
+obj/
+
+# Ignore appsettings that might contain sensitive information
+appsettings.Development.json
+
+# Ignore ASP.NET Core launch settings (can contain local environment-specific settings)
+Properties/launchSettings.json
+
+# Ignore NuGet package directories
+project.nuget.cache
+
+# Ignore other system files
+*.log
+*.pdb
+*.exe
+*.dll
+*.cache
+
+# Ignore macOS system files (if you're working on macOS)
+.DS_Store
+
+# Ignore environment-specific files
+.env
+
+# Ignore Swagger files generated at runtime
+*.http
+
+# Ignore client-specific files (if any, like node_modules for frontend frameworks)
+client/node_modules/
+
+# Ignore REST client files
+.rest/
